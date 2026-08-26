@@ -8,6 +8,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import pe.miguelruiz.itana.data.local.seed.PlaceDataSeeder;
+import pe.miguelruiz.itana.data.repository.PlaceRepository;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,5 +23,13 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        initDataSeeder();
+    }
+
+    private void initDataSeeder() {
+        PlaceRepository repository = new PlaceRepository(getApplication());
+        PlaceDataSeeder seeder = new PlaceDataSeeder(repository);
+        seeder.seed();
     }
 }
