@@ -27,7 +27,9 @@ public class PlaceDataSeeder {
             if (count == 0) {
                 List<PlaceEntity> initialPlaces = getInitialPlaces();
                 repository.insertPlaces(initialPlaces);
-                Log.d(TAG, "PlaceDataSeeder: 5 lugares disponibles en Room");
+                // Consultamos nuevamente para obtener el valor real
+                int finalCount = repository.getPlacesCountSync();
+                Log.d(TAG, "PlaceDataSeeder: " + finalCount + " lugares disponibles en Room");
             } else {
                 Log.d(TAG, "PlaceDataSeeder: La base de datos ya contiene registros. Registros actuales: " + count);
             }

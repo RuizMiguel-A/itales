@@ -62,9 +62,9 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonExplore"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
+        android:layout_width="290dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="304dp"
         android:minHeight="56dp"
         android:text="@string/button_explore"
         android:textColor="@color/text_on_primary"
@@ -72,6 +72,7 @@
         app:cornerRadius="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
