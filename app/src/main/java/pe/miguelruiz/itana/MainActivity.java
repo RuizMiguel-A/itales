@@ -1,6 +1,8 @@
 package pe.miguelruiz.itana;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import pe.miguelruiz.itana.data.local.seed.PlaceDataSeeder;
 import pe.miguelruiz.itana.data.repository.PlaceRepository;
+import pe.miguelruiz.itana.ui.places.PlacesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +28,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
         initDataSeeder();
+        initViews();
+    }
+
+    private void initViews() {
+        Button buttonExplore = findViewById(R.id.buttonExplore);
+        buttonExplore.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, PlacesActivity.class);
+            startActivity(intent);
+        });
     }
 
     private void initDataSeeder() {

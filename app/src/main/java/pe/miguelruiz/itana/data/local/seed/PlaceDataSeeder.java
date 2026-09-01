@@ -47,7 +47,7 @@ public class PlaceDataSeeder {
                 "Calle Santa Catalina 301, Arequipa",
                 -16.395224,
                 -71.536856,
-                "https://ejemplo.com/imagenes/santa-catalina.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVaJ5hjz_etmkvL1t40YbSGATyAaMe4uJ1YKV1ItsjuA&s=10",
                 1,
                 "2026-08-25"
         ));
