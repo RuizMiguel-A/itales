@@ -1,1 +1,62 @@
-
+[
+  {
+    "id": 1,
+    "name": "Castillo de Chancay",
+    "shortDescription": "Castillo medieval de estilo ecléctico frente al mar.",
+    "description": "Construido en la década de 1920, este castillo es hoy un parque temático y museo que ofrece una vista espectacular del Océano Pacífico, exhibiendo réplicas de barcos y salones coloniales.",
+    "address": "Primero de Mayo 230, Chancay, Huaral, Lima",
+    "latitude": -11.5622,
+    "longitude": -77.2708,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Castillo_de_Chancay_2.jpg/800px-Castillo_de_Chancay_2.jpg",
+    "orderNumber": 1,
+    "updatedAt": "2024-05-20"
+  },
+  {
+    "id": 2,
+    "name": "Complejo Arqueológico de Rupac",
+    "shortDescription": "El 'Machu Picchu limeño' sobre las nubes.",
+    "description": "Ciudadela pre-inca perteneciente a la cultura de los Atavillos. Se encuentra a más de 3500 msnm y destaca por sus edificios de piedra (chullpas) de hasta 3 pisos en excelente estado de conservación.",
+    "address": "Distrito de Atavillos Bajo, Huaral, Lima",
+    "latitude": -11.3197,
+    "longitude": -76.8406,
+    "imageUrl": "https://elperuano.pe/fotografia/thumbnail/2021/07/07/000122295M.jpg",
+    "orderNumber": 2,
+    "updatedAt": "2024-05-20"
+  },
+  {
+    "id": 3,
+    "name": "Albufera de Medio Mundo",
+    "shortDescription": "Laguna costera de 7 km, hogar de aves migratorias.",
+    "description": "Humedal formado por filtraciones de agua dulce que alberga una gran biodiversidad. Es el lugar ideal para el avistamiento de aves, paseos en bote y desconexión en sus playas aledañas.",
+    "address": "Panamericana Norte Km 175, Vegueta, Huaura, Lima",
+    "latitude": -10.9250,
+    "longitude": -77.6750,
+    "imageUrl": "https://visitaperu.com.pe/wp-content/uploads/2023/05/albufera-medio-mundo.jpg",
+    "orderNumber": 3,
+    "updatedAt": "2024-05-20"
+  },
+  {
+    "id": 4,
+    "name": "Ciudad Sagrada de Caral",
+    "shortDescription": "La civilización más antigua de América.",
+    "description": "Patrimonio de la Humanidad por la UNESCO. Este sitio arqueológico tiene más de 5000 años de antigüedad y cuenta con impresionantes pirámides de piedra y plazas circulares hundidas.",
+    "address": "Valle de Supe, Barranca, Lima",
+    "latitude": -10.8931,
+    "longitude": -77.5222,
+    "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2019/10/18/000624903W.jpg",
+    "orderNumber": 4,
+    "updatedAt": "2024-05-20"
+  },
+  {
+    "id": 5,
+    "name": "Fortaleza de Paramonga",
+    "shortDescription": "Imponente pirámide escalonada de la cultura Chimú.",
+    "description": "Construida íntegramente en adobe sobre una colina, fue un centro religioso y militar. Desde su cima se tiene una vista privilegiada del valle del río Fortaleza y el litoral.",
+    "address": "Panamericana Norte Km 209, Paramonga, Barranca, Lima",
+    "latitude": -10.6558,
+    "longitude": -77.8286,
+    "imageUrl": "https://arqueologiadelperu.com.pe/wp-content/uploads/2018/01/paramonga1.jpg",
+    "orderNumber": 5,
+    "updatedAt": "2024-05-20"
+  }
+]
