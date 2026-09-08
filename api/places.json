@@ -1,62 +1,63 @@
 [
   {
     "id": 1,
-    "name": "Castillo de Chancay",
-    "shortDescription": "Castillo medieval de estilo ecléctico frente al mar.",
-    "description": "Construido en la década de 1920, este castillo es hoy un parque temático y museo que ofrece una vista espectacular del Océano Pacífico, exhibiendo réplicas de barcos y salones coloniales.",
-    "address": "Primero de Mayo 230, Chancay, Huaral, Lima",
-    "latitude": -11.5622,
-    "longitude": -77.2708,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Castillo_de_Chancay_2.jpg/800px-Castillo_de_Chancay_2.jpg",
+    "name": "Monasterio de Santa Catalina de Siena",
+    "shortDescription": "Histórico convento virreinal y ciudadela de sillar.",
+    "description": "El Monasterio de Santa Catalina es un complejo turístico y religioso ubicado en el centro histórico de Arequipa. Fundado en 1579, es una pequeña ciudadela de sillar blanco y rosado que cuenta con calles estrechas, claustros, plazas y coloridos jardines de estilo colonial.",
+    "address": "Calle Santa Catalina 301, Arequipa",
+    "latitude": -16.395224,
+    "longitude": -71.536856,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVaJ5hjz_etmkvL1t40YbSGATyAaMe4uJ1YKV1ItsjuA&s=10",
     "orderNumber": 1,
-    "updatedAt": "2024-05-20"
+    "updatedAt": "2026-08-25"
   },
   {
     "id": 2,
-    "name": "Complejo Arqueológico de Rupac",
-    "shortDescription": "El 'Machu Picchu limeño' sobre las nubes.",
-    "description": "Ciudadela pre-inca perteneciente a la cultura de los Atavillos. Se encuentra a más de 3500 msnm y destaca por sus edificios de piedra (chullpas) de hasta 3 pisos en excelente estado de conservación.",
-    "address": "Distrito de Atavillos Bajo, Huaral, Lima",
-    "latitude": -11.3197,
-    "longitude": -76.8406,
-    "imageUrl": "https://elperuano.pe/fotografia/thumbnail/2021/07/07/000122295M.jpg",
+    "name": "Cañón del Colca",
+    "shortDescription": "Uno de los cañones más profundos del mundo y hábitat del cóndor.",
+    "description": "El Cañón del Colca es un impresionante destino natural ubicado en la provincia de Caylloma. Es famoso por ser uno de los cañones más profundos del mundo y ofrece paisajes espectaculares, terrazas agrícolas preincas y es el lugar ideal para el avistamiento del majestuoso cóndor andino.",
+    "address": "Valle del Colca, Provincia de Caylloma, Arequipa",
+    "latitude": -15.606619,
+    "longitude": -71.872425,
+    "imageUrl": "https://ejemplo.com/imagenes/canon-del-colca.jpg",
     "orderNumber": 2,
-    "updatedAt": "2024-05-20"
+    "updatedAt": "2026-08-25"
   },
   {
     "id": 3,
-    "name": "Albufera de Medio Mundo",
-    "shortDescription": "Laguna costera de 7 km, hogar de aves migratorias.",
-    "description": "Humedal formado por filtraciones de agua dulce que alberga una gran biodiversidad. Es el lugar ideal para el avistamiento de aves, paseos en bote y desconexión en sus playas aledañas.",
-    "address": "Panamericana Norte Km 175, Vegueta, Huaura, Lima",
-    "latitude": -10.9250,
-    "longitude": -77.6750,
-    "imageUrl": "https://visitaperu.com.pe/wp-content/uploads/2023/05/albufera-medio-mundo.jpg",
+    "name": "Centro Histórico",
+    "shortDescription": "Casco antiguo de Arequipa, Patrimonio Cultural de la Humanidad.",
+    "description": "El Centro Histórico de Arequipa destaca por su hermosa arquitectura colonial construida casi en su totalidad con sillar, una piedra volcánica blanca. Su núcleo central es la Plaza de Armas, rodeada por imponentes arquerías y la espectacular Catedral basílica.",
+    "address": "Plaza de Armas, Centro Histórico, Arequipa",
+    "latitude": -16.398803,
+    "longitude": -71.536961,
+    "imageUrl": "https://ejemplo.com/imagenes/centro-historico.jpg",
     "orderNumber": 3,
-    "updatedAt": "2024-05-20"
+    "updatedAt": "2026-08-25"
   },
   {
     "id": 4,
-    "name": "Ciudad Sagrada de Caral",
-    "shortDescription": "La civilización más antigua de América.",
-    "description": "Patrimonio de la Humanidad por la UNESCO. Este sitio arqueológico tiene más de 5000 años de antigüedad y cuenta con impresionantes pirámides de piedra y plazas circulares hundidas.",
-    "address": "Valle de Supe, Barranca, Lima",
-    "latitude": -10.8931,
-    "longitude": -77.5222,
-    "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2019/10/18/000624903W.jpg",
+    "name": "Misti",
+    "shortDescription": "Icónico estratovolcán activo y símbolo de la Ciudad Blanca.",
+    "description": "El Misti es un estratovolcán imponente que se eleva a más de 5,800 metros sobre el nivel del mar. Con su forma cónica perfecta y su cima ocasionalmente nevada, es el guardián y el símbolo geográfico más representativo de la ciudad de Arequipa.",
+    "address": "Volcán Misti, Reserva Nacional de Salinas y Aguada Blanca, Arequipa",
+    "latitude": -16.294444,
+    "longitude": -71.409167,
+    "imageUrl": "https://ejemplo.com/imagenes/volcan-misti.jpg",
     "orderNumber": 4,
-    "updatedAt": "2024-05-20"
+    "updatedAt": "2026-08-25"
   },
   {
     "id": 5,
-    "name": "Fortaleza de Paramonga",
-    "shortDescription": "Imponente pirámide escalonada de la cultura Chimú.",
-    "description": "Construida íntegramente en adobe sobre una colina, fue un centro religioso y militar. Desde su cima se tiene una vista privilegiada del valle del río Fortaleza y el litoral.",
-    "address": "Panamericana Norte Km 209, Paramonga, Barranca, Lima",
-    "latitude": -10.6558,
-    "longitude": -77.8286,
-    "imageUrl": "https://arqueologiadelperu.com.pe/wp-content/uploads/2018/01/paramonga1.jpg",
+    "name": "Mirador de Yanahuara",
+    "shortDescription": "Mirador tradicional con arcos de sillar y vista a los volcanes.",
+    "description": "El Mirador de Yanahuara, construido en el siglo XIX, está compuesto por una serie de hermosos arcos de sillar en los que se encuentran grabadas frases de ilustres pensadores arequipeños. Ofrece una de las mejores vistas panorámicas de la ciudad y de sus tres volcanes: Misti, Chachani y Pichu Pichu.",
+    "address": "Calle Miguel Grau s/n, Distrito de Yanahuara, Arequipa",
+    "latitude": -16.388831,
+    "longitude": -71.542247,
+    "imageUrl": "https://blog.incarail.com/es/mirador-de-yanahuara-arequipa-guia/",
     "orderNumber": 5,
-    "updatedAt": "2024-05-20"
+    "updatedAt": "2026-08-25"
   }
 ]
+
