@@ -35,6 +35,7 @@ public class PlacesActivity extends AppCompatActivity {
     }
 
     private void initViews() {
+        findViewById(R.id.buttonBack).setOnClickListener(v -> finish());
         RecyclerView recyclerView = findViewById(R.id.recyclerViewPlaces);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new PlaceAdapter();

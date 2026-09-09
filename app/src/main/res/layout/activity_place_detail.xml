@@ -12,15 +12,27 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/back_navigation"
+            android:src="?attr/homeAsUpIndicator"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/color_primary" />
+
         <ImageView
             android:id="@+id/imagePlaceDetail"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:layout_marginTop="8dp"
             android:background="@color/color_surface"
             android:contentDescription="@string/app_name"
             android:scaleType="centerInside"
             android:src="@android:drawable/ic_menu_gallery"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonBack"
             app:tint="@color/text_secondary" />
 
         <TextView
